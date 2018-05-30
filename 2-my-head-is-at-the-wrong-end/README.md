@@ -7,16 +7,12 @@ Karen Painter
 
 ## Problem:
 
-"The code provided is supposed replace all the dots . in the specified String str with dashes -
+"You're at the zoo... all the meerkats look weird. Something has gone terribly wrong - someone has gone and switched their heads and tails around!
 
-But it's not working properly.
+Save the animals by switching them back. You will be given an array which will have three values (tail, body, head). It is your job to re-arrange the array so that the animal is the right way round (head, body, tail).
 
-Task
-Fix the bug so we can all go home early.
-
-Notes
-String str will never be null."
+Same goes for all the other arrays/lists that you will get in the tests: you have to change the element positions with the same exact logics - simples!"
 
 ## Process for Solving the Challenge:
 
-Researched correct use of regular expressions as well as alternatives. Due to the nature of the challenge, .split() and .join() were suitable for a search-and-replace method.
+Clear need of reversing an array. Utilized arr.reverse(); and returned array.
