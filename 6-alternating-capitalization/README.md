@@ -14,7 +14,7 @@ The input will be a lowercase string with no spaces."
 
 ## Process for Solving the Challenge:
 
-1.  Split string in to two new arrays
-2.  Loop and capitalize target items (letters)
+1.  Split string in to an array
+2.  Loop to capitalize desired items in to two new arrays
 3.  Join individual letters back in to respective strings within the arrays
-4.  Join arrays in to third and final array
+4.  Join in to final array (concat? push?)
