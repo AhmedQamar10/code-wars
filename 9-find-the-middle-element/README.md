@@ -22,5 +22,6 @@ gimme([5, 10, 14]) => 1
 
 ## Process for Solving the Challenge:
 
-1.  Match vowels using regex
-2.  str.replace with '' for each
+1.  Create new, sorted array lowest to highest
+2.  Compare newArray[1] with original array, finding index for the value that matches newArray[1]
+3.  Return index of the value
