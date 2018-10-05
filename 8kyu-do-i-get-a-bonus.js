@@ -4,6 +4,6 @@
 // Return the total figure the individual will receive as a string prefixed with "£" (= "\u00A3", JS and Java) or "$" (C#, C++, Ruby, Clojure, Elixir, PHP and Python, Haskell).
 
 function bonusTime(salary, bonus) {
-    if(bonus === true) return '\u00A3' + salary * 10;
-    return '\u00A3' + salary;
+  if(bonus === true) return '\u00A3' + salary * 10;
+  return '\u00A3' + salary;
 }

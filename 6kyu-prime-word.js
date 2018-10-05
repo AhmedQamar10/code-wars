@@ -1,4 +1,4 @@
-// X and Y are playing a game. A list will be provided which 
+// X and Y are playing a game. A list will be provided which
 // contains n pairs of strings and integers.
 // They have to add the integeri to the ASCII values of the stringi characters.
 // Then they have to check if any of the new added numbers is prime or not.

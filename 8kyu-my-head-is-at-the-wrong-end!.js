@@ -3,5 +3,5 @@
 // Same goes for all the other arrays/lists that you will get in the tests: you have to change the element positions with the same exact logics - simples!
 
 function fixTheMeerkat(arr) {
-    return arr.reverse();
+  return arr.reverse();
 }

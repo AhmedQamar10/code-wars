@@ -4,14 +4,14 @@
 // If someone is online but their lastActivity was more than 10 minutes ago they are to be considered away.
 
 const whosOnline = (friends) => {
-    let friendList = { online: [], offline: [], away: [] };
-    if(friends.length < 1) return {};
-    friends.forEach((friend) => {
-        if(friend.status === 'online' && friend.lastActivity > 10) friendList.away.push(friend.username);
-        else if(friend.status === 'offline') friendList.offline.push(friend.username);
-        else if(friend.status === 'online') friendList.online.push(friend.username);
-    });
-    if(friendList.online.length < 1) delete friendList.online;
-    if(friendList.away.length < 1) delete friendList.away;
-    return friendList;
+  let friendList = { online: [], offline: [], away: [] };
+  if(friends.length < 1) return {};
+  friends.forEach((friend) => {
+    if(friend.status === 'online' && friend.lastActivity > 10) friendList.away.push(friend.username);
+    else if(friend.status === 'offline') friendList.offline.push(friend.username);
+    else if(friend.status === 'online') friendList.online.push(friend.username);
+  });
+  if(friendList.online.length < 1) delete friendList.online;
+  if(friendList.away.length < 1) delete friendList.away;
+  return friendList;
 };
