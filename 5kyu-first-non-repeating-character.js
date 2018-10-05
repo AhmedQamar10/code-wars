@@ -3,6 +3,7 @@
 // As an added challenge, upper- and lowercase letters are considered the same character, but the function should return the correct case for the initial letter. For example, the input 'sTreSS' should return 'T'.
 // If a string contains all repeating characters, it should return the empty string ("").
 
+// eslint-disable-next-line
 function firstNonRepeatingLetter(s) {
   const letters = s.split('');
   const sameCase = s.toUpperCase().split('');

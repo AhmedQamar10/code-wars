@@ -4,6 +4,7 @@
 // If there are numbers or special characters included in the string, they should be returned as they are.
 // Only letters from the latin/english alphabet should be shifted, like in the original Rot13 "implementation".
 
+// eslint-disable-next-line
 function rot13(message){
   let abc = 'abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz';
   message = message.split('');

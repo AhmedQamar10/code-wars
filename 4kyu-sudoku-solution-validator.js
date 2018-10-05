@@ -7,6 +7,7 @@
 // The cells of the sudoku board may also contain 0's, which will represent empty cells. Boards containing one or more zeroes are considered to be invalid solutions.
 // The board is always 9 cells by 9 cells, and every cell only contains integers from 0 to 9.
 
+// eslint-disable-next-line
 function validSolution(board) {
 
   var sortedVer = board.slice().sort();
@@ -19,7 +20,7 @@ function validSolution(board) {
     for(let b = 1; b < board[a].length - 1; b++) {
       // check for dupes horizontally, return false
       var sortedHor = board[a].slice().sort();
-      if(sortedHor[b] == sortedHor[b + 1] || sortedHor[b] === sortedHor[b - 1]) return false;
+      if(sortedHor[b] === sortedHor[b + 1] || sortedHor[b] === sortedHor[b - 1]) return false;
 
       // check for dupes vertically, return false
       if(sortedVer[b][a] === sortedVer[b + 1][a] || sortedVer[b][a] === sortedVer[b - 1][a]) return false;

@@ -8,6 +8,6 @@ var replaceDots = function(str) {
 
 //or alternatively,
 
-var replaceDots = function(str) {
-  return str.replace(/\./g, '-');
-};
+// var replaceDots = function(str) {
+//   return str.replace(/\./g, '-');
+// };

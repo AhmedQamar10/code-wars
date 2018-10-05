@@ -14,6 +14,7 @@
 // Once the same number occurs twice in the sequence, the sequence is guaranteed to go on infinitely, never hitting the number 1, since it repeat this cycle.
 // Your task is to write a program which will print a list of all happy numbers between 1 and x (including 1 and x) where x <= 10000
 
+// eslint-disable-next-line
 function happyNumbers(x){
   let numbers = Array.from(Array(x), (val, i) => i + 1);
   let currentNumber = 0;

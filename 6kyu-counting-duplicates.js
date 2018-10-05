@@ -10,6 +10,7 @@
 // "aA11" -> 2 # 'a' and '1'
 // "ABBA" -> 2 # 'A' and 'B' each occur twice
 
+// eslint-disable-next-line
 function duplicateCount(text){
   let letters = text.toUpperCase().split('').sort();
   let count = 0;
