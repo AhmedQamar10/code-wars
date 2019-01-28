@@ -13,6 +13,7 @@
     },
     "rules": {
       "eqeqeq": ["error", "always"],
+      "no-unused-vars": "off",
       "no-console": "off",
       "indent": ["error", 2, { "SwitchCase": 1 }],
       "quotes": ["warn", "single"],
@@ -23,6 +24,7 @@
       ],
       "no-trailing-spaces": "warn",
       "new-cap": "error",
+      "no-undef": "off",
       "no-redeclare": [
         "error",
         {
