@@ -8,7 +8,7 @@
 // 7 returns "Saturday"
 // Otherwise returns "Wrong, please enter a number between 1 and 7"
 
-function whatday(num) { 
+function whatday(num) {
   let days = ['Sun', 'Mon', 'Tues', 'Wednes', 'Thurs', 'Fri', 'Satur'];
   for(let i = 1; i <= 7; i++) {
     if(num === i) return `${days[i - 1]}day`;
